@@ -139,10 +139,3 @@ jobs:
           full_commit_message: ${{ steps.message.outputs.result }}
           force_orphan: true
           enable_jekyll: true
-          
-      - name: Purge artifacts
-        uses: kolpav/purge-artifacts-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          expire-in: 7days
-
