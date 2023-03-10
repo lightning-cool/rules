@@ -4,6 +4,8 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
+    branches:
+     - "main"
     paths-ignore:
       - "**/README.md"
 jobs:
@@ -35,6 +37,7 @@ jobs:
           echo "jetstream.tel @cn" >> ./data/category-vpnservices
           echo "jetflow.site @cn" >> ./data/category-vpnservices
           echo "full:jetflow.site @cn" >> ./data/category-vpnservices
+          echo "full:tlt9.top @cn" >> ./data/category-vpnservices
           echo "flashvpn.io @cn" >> ./data/category-vpnservices
           echo "lightning.cool @cn" >> ./data/category-vpnservices
           
