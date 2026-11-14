@@ -1,0 +1,7 @@
+# Generated from https://github.com/v2fly/domain-list-community/tree/master/data/category-vpnservices
+
+.flashvpn.io
+.jetflow.site
+.jetstream.tel
+.lightning.cool
+tlt9.top
