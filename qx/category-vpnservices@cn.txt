@@ -1,0 +1,7 @@
+# Generated from https://github.com/v2fly/domain-list-community/tree/master/data/category-vpnservices
+
+host, tlt9.top, proxy
+host-suffix, flashvpn.io, proxy
+host-suffix, jetflow.site, proxy
+host-suffix, jetstream.tel, proxy
+host-suffix, lightning.cool, proxy
